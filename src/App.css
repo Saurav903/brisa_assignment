@@ -1,0 +1,9 @@
+html body{
+  margin: 0;
+  background: rgb(13,17,23);
+}
+
+.MuiPaginationItem-root{
+  color: azure;
+}
+

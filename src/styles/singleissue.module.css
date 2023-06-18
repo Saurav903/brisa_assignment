@@ -1,0 +1,126 @@
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.upper>div>p{
+    color: rgb(207, 206, 206);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.mid{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid #202834;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2px;
+    align-items: center;
+    text-align: center;
+    color: rgb(199, 197, 197);
+    padding: 10px;
+}
+
+.inputs{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.inp{
+    flex: 8;
+}
+
+.lable{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+.lable>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgb(90, 90, 90);
+    width: 100%;
+    height: 36px;
+}
+
+.lable>div:nth-child(1){
+    /* border:3px solid #202834; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+.lable>div:nth-child(2){
+    /* border:3px solid #202834; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.mainheads{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 10px;
+    height: max-content;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    background-color: rgb(22,27,34);
+    height: 55px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.headtext{
+    display: flex;
+    color: rgb(112, 112, 112);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headtext>p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.headleft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headleft>div{
+    display: flex;
+    align-items: center;
+}
+
+.datas:hover{
+    background-color: rgb(22,27,34);
+}
+
+.pages{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
